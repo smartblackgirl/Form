@@ -1,0 +1,40 @@
+*{
+    overflow-x: hidden;
+    
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content:space-between;
+}
+    
+    .main div{
+        margin: 0 auto;
+        padding: 2% 5%;
+        display: flex;
+        background-color: green;
+        height: 90%;
+    }
+        .main div ul{
+           margin-left: -15%;
+        }
+    .personalInfo{
+        background-color: aliceblue;
+        width:70%;
+        margin:0 auto;
+        
+    }
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size:15px;
+        }
+        form label{
+            display: flex ;
+            margin: 1% 0;
+        }
+        form input{
+            padding: 1.5%;
+            width:40%;
+        }
